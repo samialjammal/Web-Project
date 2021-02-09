@@ -14,49 +14,48 @@ body {
   margin-left: auto;
   display: inline-block;
 }
-header{
+header {
   width: 100%;
   height: 1000px;
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.nav{
-  position: fixed;
+.nav {
+  position: relative;
   width: 100%;
   height: 80px;
-  background-color:rgb(4, 1, 48);
+  background-color: rgb(4, 1, 48);
 }
 .rightnav {
   float: right;
   height: 100%;
 }
-.rightnav a{
+.rightnav a {
   height: 100%;
   display: table;
   float: right;
   padding: 0px 10px;
   vertical-align: middle;
 }
-.rightnav a li{
+.rightnav a li {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   color: #b9dfea;
   font-family: cursive;
 }
-.innerheader{
+.innerheader {
   width: 50%;
   height: 100%;
   margin: 0 auto;
 }
-.logo_contener{
+.logo_contener {
   display: table;
   height: 100%;
   float: left;
-
 }
-.logo_contener h1{
+.logo_contener h1 {
   height: 100%;
   display: table-cell;
   vertical-align: middle;
@@ -64,10 +63,10 @@ header{
   font-family: monospace;
   font-size: xx-large;
 }
-.logo_contener h1 span{
+.logo_contener h1 span {
   color: rgb(153 208 228);
   font-size: -webkit-xxx-large;
-  font-family:system-ui ;
+  font-family: system-ui;
 }
 
 .background_img {
